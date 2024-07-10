@@ -95,23 +95,23 @@ body{
     flex-direction: column;
     gap: 48px;
 }
-.current-info{
+.info{
     text-align: center;
 }
-.target-card{
+.current-target-card{
     display: flex;
     justify-content: space-between;
 }
-.topic-card{
+.current-topic-card{
     width: 30%;
     padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: self-start;
-
+    
 }
-.topic-card img{
+.current-topic-card img{
     align-self: start;
 }
 .html-card{
@@ -131,10 +131,29 @@ body{
     font-size: 24px;
     font-weight: 800;
 }
-.topic-card a{
+.current-topic-card a, .next-topic-card a{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+.next-target-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.next-topic-card{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    
+}
+.react-node-mongo-card{
+    display: flex;
+    flex-direction: column;
 }
 /* target section styles ends here */
 /* support section styles starts here*/
