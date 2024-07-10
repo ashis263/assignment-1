@@ -86,11 +86,55 @@ body{
 /* hero styles ends here */
 /* header styles ends here*/
 
-
+/* why-webdev section styles starts here */
+.why-webdev{
+    width: 1140px;
+    margin: 80px auto;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.why-webdev-head{
+    margin: 0 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.reason{
+    padding: 48px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.reason-card{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.reason-btn{
+    align-self: start;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+}
+.reason-btn a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* why-webdev section styles ends here */
 /* inspiration section styles starts here */
 .inspiration-sec{
     width: 1140px;
-    margin: 0 auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -178,7 +222,7 @@ iframe{
 .support-sec{
     width: 1140px;
     height: 314px;
-    margin: 0 auto;
+    margin: 80px auto;
     padding: 64px 48px;
     border-radius: 16px;
     background-image: url('../assets/handshake.jpg');
