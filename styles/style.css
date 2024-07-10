@@ -87,6 +87,24 @@ body{
 /* header styles ends here*/
 
 
+/* inspiration section styles starts here */
+.inspiration-sec{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    margin: 32px;
+}
+/* inspiration section styles ends here */
 /* target section styles starts here */
 .target-sec{
     width: 1140px;
