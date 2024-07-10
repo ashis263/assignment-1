@@ -82,6 +82,60 @@ body{
 /* header styles ends here*/
 
 
+/* support section styles starts here*/
+.support-sec{
+    height: 314px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-text{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.support-form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.support-form input[type=text]{
+    width: 548px;
+    border-radius: 8px;
+    padding: 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-form input[type=submit]{
+    padding: 17px 20px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+}
+/* support section styles ends here*/
+
+
 /* footer styles starts here */
 footer{
     padding: 32px 150px;
