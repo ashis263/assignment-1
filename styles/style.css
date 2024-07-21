@@ -111,6 +111,10 @@ body{
     justify-content: flex-start;
     gap: 100px;
 }
+
+.reason img {
+    width: 45%;
+}
 .reason-card{
     text-align: justify;
     display: flex;
@@ -221,6 +225,9 @@ iframe{
     gap: 20px;
     
 }
+.next-topic-card img{
+    width: 20%;
+}
 .react-node-mongo-card{
     display: flex;
     flex-direction: column;
@@ -308,11 +315,13 @@ h4{
     .hero{
         overflow-y: auto;
     }
-    .reason img{
-        width: 240px;
-    }
     .why-webdev-head{
         margin-bottom: 50px;
+    }
+    
+
+    .reason img {
+        width: 95%;
     }
     .reason:nth-of-type(2n){
         flex-direction: column-reverse;
@@ -354,7 +363,7 @@ h4{
         flex-direction: column;
     }
     .next-topic-card img {
-        width: 240px;
+        width: 50%;
         margin: 0 auto;
     }
     .react-node-mongo-card{
@@ -396,10 +405,6 @@ h4{
 
     .reason-card {
         width: 50%;
-    }
-
-    .reason img {
-        width: 45%;
     }
 
     .support-sec {
