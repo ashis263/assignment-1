@@ -108,6 +108,9 @@ body{
     align-items: center;
     gap: 20px;
 }
+.why-webdev-title{
+    text-align: center;
+}
 .reason{
     display: flex;
     justify-content: flex-start;
