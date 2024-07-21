@@ -26,7 +26,8 @@ body{
 /* header styles starts here*/
 /* nav styles starts here */
 .header-nav{
-    margin: 25px 100px;
+    width: 78%;
+    margin: 25px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,11 +36,12 @@ body{
     color: rgb(13, 19, 33);
     font-size: 1.75rem;
     font-weight: 800;
+    text-align: center;
 }
 .nav-button{
     background-color: #fff;
     max-width: 228px;
-    height: 58px;
+    padding: 10px 20px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
