@@ -268,7 +268,7 @@ iframe{
     gap: 10px;
 }
 .support-form input[type=text]{
-    width: 548px;
+    width: 80%;
     border-radius: 8px;
     padding: 19px 20px;
     color: rgba(13, 19, 33, 0.4);
