@@ -136,7 +136,7 @@ body{
 /* why-webdev section styles ends here */
 /* inspiration section styles starts here */
 .inspiration-sec{
-    max-width: 1140px;
+    width: 78%;
     margin: 80px auto;
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@ iframe{
 /* inspiration section styles ends here */
 /* target section styles starts here */
 .target-sec{
-    max-width: 1140px;
+    width: 78%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -232,7 +232,7 @@ iframe{
 /* target section styles ends here */
 /* support section styles starts here*/
 .support-sec{
-    max-width: 1140px;
+    width: 78%;
     height: 314px;
     margin: 80px auto;
     padding: 64px 48px;
@@ -390,4 +390,8 @@ h4{
         justify-content: center;
         gap: 20px;
     }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
 }
